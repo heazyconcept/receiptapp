@@ -1,0 +1,66 @@
+:root {
+   
+}
+.new-user-wrapper{
+    padding: 30px;
+}
+#previewReceipt {
+    width: 100%;
+    height: 520px;
+    border: 1px solid #0000000f;
+}
+.search-suggestion, .tag-suggestion {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    z-index: 10000;
+    padding: 10px;
+}
+.search-client-name h4, .tag-client-name h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3e8ef7;
+    margin-bottom: -1px;
+}
+.search-client-details p, .tag-client-details p {
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0;
+}
+.divider {
+    margin: 5px 0;
+    border-top: 1px dotted #00000045;
+}
+.search-item, .tag-item {
+    cursor: pointer;
+}
+.search-item:hover .search-client-name h4, .tag-item:hover .search-client-name h4 {
+    color: #000;
+}
+.search-item:hover .search-client-details p, .tag-item:hover .search-client-details p {
+    color: #3e8ef7;
+}
+.pie-progress-number {
+    visibility: hidden;
+}
+.table tr td {
+    vertical-align: middle!important;
+}
+.amount-wrapper .col-md-7 {
+    padding-right: 5px;
+}
+.amount-wrapper .col-md-5 {
+    padding-left: 5px;
+}
+.btn-export {
+    float: right;
+    margin-top: 20px;
+    margin-right: 29px;
+    padding: 6px 35px;
+    margin-bottom: 20px;
+}
+.panel-heading:after {
+    display: block;
+    content: "";
+    clear: both;
+}
